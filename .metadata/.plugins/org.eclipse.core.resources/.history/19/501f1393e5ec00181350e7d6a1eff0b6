@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+	
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+	<center>
+		<Label BorderPane.alignment="CENTER" text="Região central"></Label>
+	</center>	
+	<top>
+		<HBox>
+			<children>
+				<Label text="Cabeçalho"></Label>
+				<button></button>
+			</children>
+		</HBox>
+	</top>
+	<bottom>
+		<Label BorderPane.alignment="CENTER_RIGHT" text="Região do Rodapé"></Label>
+	</bottom>
+	<left>
+		<Label BorderPane.alignment="CENTER" text="Região da esquerda"></Label>
+	</left>
+	<right>
+		<Label BorderPane.alignment="CENTER" text="Região da direita"></Label>
+	</right>
+</BorderPane>

@@ -1,0 +1,9 @@
+package br.com.treinaweb.agenda.entidades;
+
+public class Contato {
+	
+	private String nome;
+	private int idade;
+	private String telefone
+
+}

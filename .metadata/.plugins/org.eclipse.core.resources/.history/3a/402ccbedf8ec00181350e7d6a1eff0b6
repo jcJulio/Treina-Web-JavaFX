@@ -1,0 +1,8 @@
+package br.com.treinaweb.agenda.repositorios.interfaces;
+
+public interface AgendaRepositorio {
+	
+	
+	List
+
+}

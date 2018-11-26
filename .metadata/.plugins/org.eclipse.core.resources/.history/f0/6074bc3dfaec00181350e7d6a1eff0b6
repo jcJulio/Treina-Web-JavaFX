@@ -1,0 +1,7 @@
+package br.com.treinaweb.agenda.repositorios.impl;
+
+import br.com.treinaweb.agenda.repositorios.interfaces.AgendaRepositorio;
+
+public class ContatoRepositorio implements AgendaRepositorio<Contato> {
+
+}

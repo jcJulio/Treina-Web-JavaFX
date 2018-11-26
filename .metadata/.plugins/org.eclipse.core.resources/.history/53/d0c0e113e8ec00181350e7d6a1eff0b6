@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+	
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+	<center>
+		<Label BorderPane.alignment="CENTER" text="Região central"></Label>
+	</center>	
+	<top>
+ 		<HBox> <!--coloca os elementos lado a lado -->
+			<children>
+				<Label text="Cabeçalho"></Label>
+				<Button text="Botão"></Button>
+				<Label text="Cabeçalho"></Label>
+				<Button text="Botão"></Button>
+			</children>
+		</HBox>
+	</top>
+	<bottom>
+		<StackPane BorderPane.alignment="CENTER_RIGHT">
+			<children>
+				<Circle fill="DODGEBLUE" radius="10.0" stroke="BLACK"></Circle>
+			</children>
+		</StackPane>
+	</bottom>
+	<left>
+		<VBox> <!--coloca os elementos um abaixo do outro -->
+			<children> 
+				<Button text="Menu 1"></Button>
+				<Button text="Menu 2"></Button>
+				<Label text="Isso é um Label"></Label>
+				<Button text="Menu 3"></Button>
+			</children>
+		</VBox>
+	</left>
+	<right>
+		<Label BorderPane.alignment="CENTER" text="Região da direita"></Label>
+	</right>
+</BorderPane>
